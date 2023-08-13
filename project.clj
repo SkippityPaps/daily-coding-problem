@@ -5,7 +5,8 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.11.1"]
                  [org.clojure/test.check "1.1.1"]
-                 [org.clojure/data.json "2.4.0"]]
+                 [org.clojure/data.json "2.4.0"]
+                 [org.clojure/math.combinatorics "0.2.0"]]
   :main ^:skip-aot daily-coding-problem.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all
