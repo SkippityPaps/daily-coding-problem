@@ -1,6 +1,7 @@
 {:paths ["src"]
  :deps {org.clojure/clojure {:mvn/version "1.11.1"}
-        org.clojure/core.async {:mvn/version "1.6.673"}}
+        org.clojure/core.async {:mvn/version "1.6.673"}
+        org.clojure/test.check {:mvn/version "1.1.1"}}
  :aliases {:butts {:extra-deps {nrepl/nrepl {:mvn/version "0.9.0"}
                                 cider/cider-nrepl {:mvn/version "0.30.0"}
                                 refactor-nrepl/refactor-nrepl {:mvn/version "3.6.0"}
